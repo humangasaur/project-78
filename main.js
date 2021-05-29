@@ -6,6 +6,6 @@ function update(){
         i=0;
     }
     document.getElementById("image").src=images[i];
-    document.getElementById("name").src=names[i];
+    document.getElementById("name").innerHTML=names[i];
     i++
 }
